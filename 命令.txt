@@ -1,0 +1,12 @@
+-Dproc_master
+-XX:OnOutOfMemoryError="kill -9 %p"
+-XX:+UseConcMarkSweepGC
+-Dhbase.log.dir=D:\java\hbase-2.1.0\logs
+-Dhbase.log.file=hbase-root-master.log
+-Dhbase.home.dir=D:\java\hbase-2.1.0\bin\.
+-Dhbase.id.str=root
+-Dhbase.root.logger=INFO,console,DRFA
+
+-Dhbase.ruby.sources=D:\java\hbase-2.1.0\hbase-shell\src\main\ruby\
+
+-X+O D:\java\hbase-2.1.0\bin\hirb.rb
